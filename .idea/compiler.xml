@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="commons" />
-        <module name="logging-module" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="logging-module" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
